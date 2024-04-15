@@ -1,0 +1,64 @@
+.fundo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font: 16px Arial, Helvetica, sans-serif;
+    background: #d2d2d2;
+    background-image: url(images/fundo.png);
+}
+
+.capa {
+    width: 891px;
+}
+
+.topo nav {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background: #d3d3be;
+    width: 885px;
+    border: solid 4px #d3d3be;
+    height: 90px;
+}
+
+
+.topo a {
+    color: #495467;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 891px;
+    background: whitesmoke;
+    width: 891px;
+}
+
+.fotos {
+    border: solid 15px #d3d3be;
+    margin: 10px;
+}
+
+p {
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3035;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 891px;
+    height: 30px;
+    background-color: #495467;
+    color: #d3d3be;
+}
